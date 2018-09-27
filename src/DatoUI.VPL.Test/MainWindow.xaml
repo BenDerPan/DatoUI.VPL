@@ -1,0 +1,25 @@
+﻿<Window
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:core="clr-namespace:DatoUI.VPL.Core;assembly=DatoUI.VPL"
+    xmlns:script="clr-namespace:DatoUI.VPL.Scripting;assembly=DatoUI.VPL.Scripting"
+    x:Class="DatoUI.VPL.Test.MainWindow"
+    Title="MainWindow" WindowStartupLocation="CenterScreen" WindowState="Maximized">
+
+
+    <Grid>
+        <TabControl>
+            <TabItem Header="Project">
+                <core:VplControl Name="VplControl" ClipToBounds="True" />
+            </TabItem>
+            <TabItem Header="Group_1">
+                <core:VplGroupControl Name="VplGroupControl"  />
+            </TabItem>
+            <TabItem Header="Script" >
+                <script:ScriptingControl></script:ScriptingControl>
+            </TabItem>
+
+        </TabControl>
+
+    </Grid>
+</Window>
