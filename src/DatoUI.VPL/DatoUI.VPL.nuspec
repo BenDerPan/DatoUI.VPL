@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<package >
+  <metadata>
+    <id>$id$</id>
+    <version>0.0.0.1</version>
+    <title>$title$</title>
+    <authors>BenDerPan</authors>
+    <owners>BenDerPan</owners>
+    <licenseUrl>https://github.com/BenDerPan/DatoUI.VPL/blob/master/LICENSE</licenseUrl>
+    <projectUrl>https://github.com/BenDerPan/DatoUI.VPL</projectUrl>
+    <iconUrl>http://ICON_URL_HERE_OR_DELETE_THIS_LINE</iconUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Visual programming library, 可视化编程库</description>
+    <releaseNotes>初步版本发布</releaseNotes>
+    <copyright>Copyright @Dato 2018</copyright>
+    <tags>VPL Visual Programming</tags>
+  </metadata>
+</package>

@@ -7,9 +7,9 @@ using System.Windows;
 // associated with an assembly.
 
 [assembly: AssemblyTitle("DatoUI.VPL")]
-[assembly: AssemblyDescription("")]
+[assembly: AssemblyDescription("Visual programming library")]
 [assembly: AssemblyConfiguration("")]
-[assembly: AssemblyCompany("")]
+[assembly: AssemblyCompany("Dato")]
 [assembly: AssemblyProduct("DatoUI.VPL")]
 [assembly: AssemblyCopyright("Copyright ©Dato  2018")]
 [assembly: AssemblyTrademark("")]
