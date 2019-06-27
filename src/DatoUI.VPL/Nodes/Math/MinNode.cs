@@ -25,7 +25,7 @@ namespace DatoUI.VPL.Nodes.Math
             AddControlToNode(label);
         }
 
-        public override void Calculate()
+        public override void Calculate(object userState = null)
         {
             List<double> doubles= new List<double>();
             var collection = InputPorts[0].Data as ICollection;

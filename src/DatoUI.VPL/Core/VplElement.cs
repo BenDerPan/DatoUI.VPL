@@ -244,7 +244,7 @@ namespace DatoUI.VPL.Core
         public new double Width { get; set; }
 
 
-        public static readonly DependencyProperty NameProperty =
+        public static new readonly DependencyProperty NameProperty =
             DependencyProperty.Register("Name", typeof (string), typeof (VplElement),
                 new UIPropertyMetadata(string.Empty));
 

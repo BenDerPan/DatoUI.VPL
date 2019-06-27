@@ -24,7 +24,7 @@ namespace DatoUI.VPL.Nodes.Math
             AddControlToNode(label);
         }
 
-        public override void Calculate()
+        public override void Calculate(object userState = null)
         {
             double sum = 0;
 

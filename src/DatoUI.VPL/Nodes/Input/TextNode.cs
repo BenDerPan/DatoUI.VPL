@@ -45,7 +45,7 @@ namespace DatoUI.VPL.Nodes.Input
             Calculate();
         }
 
-        public override void Calculate()
+        public override void Calculate(object userState = null)
         {
             var textBox = ControlElements[0] as TextBox;
             if (textBox == null) return;

@@ -16,7 +16,7 @@ namespace DatoUI.VPL.Nodes.List
             AddOutputPortToNode("List", typeof (object));
         }
 
-        public override void Calculate()
+        public override void Calculate(object userState = null)
         {
             OutputPorts[0].Data = InputPorts[0].Data;
         }

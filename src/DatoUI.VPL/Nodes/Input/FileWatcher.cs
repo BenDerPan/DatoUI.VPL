@@ -69,10 +69,10 @@ namespace DatoUI.VPL.Nodes.Input
 
         private void Watcher_Changed(object sender, FileSystemEventArgs e)
         {
-            Dispatcher.Invoke(DispatcherPriority.Normal, (Action)(Calculate));
+            Dispatcher.Invoke(DispatcherPriority.Normal, (Action<object>)(Calculate));
         }
 
-        public override void Calculate()
+        public override void Calculate(object userState = null)
         {
             OutputPorts[0].Data = textBlock.Text;
         }

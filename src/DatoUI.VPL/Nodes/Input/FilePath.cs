@@ -58,7 +58,7 @@ namespace DatoUI.VPL.Nodes.Input
             Border.Focusable = false;
         }
 
-        public override void Calculate()
+        public override void Calculate(object userState = null)
         {
             OutputPorts[0].Data = textBlock.Text;
         }

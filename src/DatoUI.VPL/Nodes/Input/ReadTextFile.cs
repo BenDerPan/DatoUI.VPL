@@ -30,7 +30,7 @@ namespace DatoUI.VPL.Nodes.Input
         }
 
 
-        public override void Calculate()
+        public override void Calculate(object userState = null)
         {
             string e = Path.GetExtension((string)InputPorts[0].Data);
             if (e == ".txt")

@@ -153,7 +153,7 @@ namespace DatoUI.VPL.Core
             Hide();
         }
 
-        public override void Calculate()
+        public override void Calculate(object userState = null)
         {
         }
 

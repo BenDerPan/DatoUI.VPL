@@ -26,7 +26,7 @@ namespace DatoUI.VPL.Nodes.Logic
             AddOutputPortToNode("Result", typeof (object));
         }
 
-        public override void Calculate()
+        public override void Calculate(object userState = null)
         {
             var data = InputPorts[0].Data;
             if (data != null && (bool) data)

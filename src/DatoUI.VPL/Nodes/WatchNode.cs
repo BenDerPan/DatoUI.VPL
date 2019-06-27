@@ -37,7 +37,7 @@ namespace DatoUI.VPL.Nodes
         }
 
 
-        public override void Calculate()
+        public override void Calculate(object userState = null)
         {
             foreach (var port in InputPorts)
             {

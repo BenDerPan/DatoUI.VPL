@@ -397,7 +397,7 @@ namespace DatoUI.VPL.Core
             }
         }
 
-        public abstract void Calculate();
+        public abstract void Calculate(object userState=null);
         public event EventHandler DeletedInNodeCollection;
 
         public void Delete(bool removeConnectors = true)

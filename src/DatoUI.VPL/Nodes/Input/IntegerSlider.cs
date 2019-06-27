@@ -33,7 +33,7 @@ namespace DatoUI.VPL.Nodes.Input
             AddControlToNode(expander);
         }
 
-        public override void Calculate()
+        public override void Calculate(object userState = null)
         {
         }
 

@@ -37,7 +37,7 @@ namespace DatoUI.VPL.Nodes
             Name = "Test node";
         }
 
-        public override void Calculate()
+        public override void Calculate(object userState = null)
         {
             string[] test = null;
 

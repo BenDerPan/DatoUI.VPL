@@ -25,7 +25,7 @@ namespace DatoUI.VPL.Nodes.Math
             AddControlToNode(label);
         }
 
-        public override void Calculate()
+        public override void Calculate(object userState = null)
         {
             OutputPorts[0].Data = System.Math.Round((Double)InputPorts[0].Data, (int)InputPorts[1].Data);
         }

@@ -40,7 +40,7 @@ namespace DatoUI.VPL.Nodes.Logic
             OutputPorts[0].Data = toggleButton.IsChecked;
         }
 
-        public override void Calculate()
+        public override void Calculate(object userState = null)
         {
         }
 
