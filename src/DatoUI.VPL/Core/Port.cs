@@ -65,8 +65,9 @@ namespace DatoUI.VPL.Core
                 //if (Data != null)
                 //    return Name + " : " + DataType.Name + " : " + Data;
                 //return Name + " : " + DataType.Name + " : null";
-
-                return Utilities.Utilities.DataToString(Data);
+                var portTypeDetails= Utilities.Utilities.DataToString(Data);
+                var text = $"PortName: [{Name}]{Environment.NewLine}PortValue:{Environment.NewLine}{portTypeDetails}";
+                return text;
             }
         }
 

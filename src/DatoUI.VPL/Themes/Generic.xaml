@@ -210,6 +210,7 @@
                     <Ellipse Name="ellipse" Width="{DynamicResource PortSize}" Height="{DynamicResource PortSize}"
                              Fill="{DynamicResource PortFillBrush}" Stroke="{DynamicResource PortStrokeBrush}"
                              StrokeThickness="{DynamicResource PortStrokeThickness}" />
+                    
                     <ControlTemplate.Triggers>
                         <Trigger Property="IsMouseOver" Value="true">
                             <Setter TargetName="ellipse" Property="Fill" Value="{DynamicResource BrushHighlighting}" />
