@@ -19,7 +19,7 @@ namespace DatoUI.VPL.Nodes
             });
         }
 
-        public override void Calculate(object userState)
+        public override void Calculate(object userState=null)
         {
         }
 

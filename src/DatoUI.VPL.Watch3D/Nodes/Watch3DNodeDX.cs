@@ -77,7 +77,7 @@ namespace DatoUI.VPL.Watch3D.Nodes
             AddInputPortToNode("Elements", typeof (object));
         }
 
-        public override void Calculate()
+        public override void Calculate(object userState = null)
         {
             if (InputPorts[0].Data == null) return;
 

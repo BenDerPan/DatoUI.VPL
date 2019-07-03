@@ -53,7 +53,7 @@ namespace DatoUI.VPL.Test.Nodes
             }
         }
 
-        public override void Calculate()
+        public override void Calculate(object userState = null)
         {
             OutputPorts[0].Data = DateTime.Now.ToString("HH:mm:ss");
         }

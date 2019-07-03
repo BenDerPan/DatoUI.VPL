@@ -2,7 +2,7 @@
 <package >
   <metadata>
     <id>$id$</id>
-    <version>0.0.0.1</version>
+    <version>1.0.0.2</version>
     <title>$title$</title>
     <authors>BenDerPan</authors>
     <owners>BenDerPan</owners>
@@ -12,7 +12,7 @@
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <description>Visual programming library, 可视化编程库</description>
     <releaseNotes>初步版本发布</releaseNotes>
-    <copyright>Copyright @Dato 2018</copyright>
+    <copyright>Copyright @Dato 2019</copyright>
     <tags>VPL Visual Programming</tags>
   </metadata>
 </package>

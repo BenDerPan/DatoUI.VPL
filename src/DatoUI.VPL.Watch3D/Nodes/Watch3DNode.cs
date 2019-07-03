@@ -74,7 +74,7 @@ namespace DatoUI.VPL.Watch3D.Nodes
         /// <summary>
         ///     Calculation Function
         /// </summary>
-        public override void Calculate()
+        public override void Calculate(object userState = null)
         {
             // Clear the viewport
             HelixViewport3D.Children.Clear();

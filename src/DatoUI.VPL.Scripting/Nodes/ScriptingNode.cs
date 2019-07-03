@@ -173,7 +173,7 @@ namespace DatoUI.VPL.Scripting.Nodes
             }
         }
 
-        public override void Calculate()
+        public override void Calculate(object userState = null)
         {
             // Define the Input for the Script
             var parameters = InputPorts.Select(port => port.Data).ToList();
