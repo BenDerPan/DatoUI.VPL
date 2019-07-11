@@ -12,8 +12,8 @@ namespace DatoUI.VPL.Test.Nodes
             AddControlToNode(new Label { Content = "ANode测试" });
             AddInputPortToNode("AInput1", typeof (string));
             AddOutputPortToNode("AOutput1", typeof (string));
-
-           
+            BottomComment.Text = "测试节点，左边表示输入端口，右边表示输出端口";
+            
         }
 
         public override void Calculate(object userState=null)
